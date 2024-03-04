@@ -11,7 +11,7 @@ import SwiftUI
 struct DavidWeeCodeChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchImageView(viewModel: SearchImageViewModel())
         }
     }
 }
